@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(20, 202, 66);
+    color: white;
+    text-align: center;
+    height: 60px;
+    padding: 10px;
+}
+
+header > h1{
+    color: rgb(100, 8, 96);
+}
+
+nav > ul{
+    display: flex;
+}
+nav > ul > li{
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+nav > ul > li > a{
+    text-decoration:none;
+    color: white;
+}
+nav > ul > li > a:hover{
+    color: rgb(230, 139, 21);
+
+
+    
+    margin: 5px;  
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: #304e79;
+  background: #f8fafc;
+}
+
+
+section >h1{
+    color: #34792e;
+    margin: 20px;
+    font-size: 24px;
+    font-style: italic;
+    height: 5vh;
+    background-color: black;
+}
+
+.hero {
+  min-height: 400px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/profile%20CD.jpg") center / cover;
+}
+
+.hero > h1 {
+  font-size: 2rem;
+  color: aqua;
+}
+
+.hero > p {
+  max-width: 700px;
+  margin-top: 1rem;
+  color: white;
+  background: none;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  color: darkorange;
+  text-decoration-color: blue;
+}
+
+.about {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  background-color: aqua;
+}
+
+.about .container {
+  align-items: center;
+  gap: 2rem;
+}
+
+.left-container {
+  color: #374151;
+  margin: 20px;
+  align-items: center;
+}
+
+.left-container p,
+.left-container li {
+  color: #374151;
+}
+
+.right-container img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+.services {
+  padding: 3rem 2rem;
+  background: #eaf2f8;
+}
+
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  background-color: aquamarine;
+}
+
+.card {
+  display: block;
+  margin: 10px;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 10px;
+  border: 1px;
+  box-shadow: 5px 5px 5px 5px rgba(230, 12, 12, 0.5);
+}
+
+.card > p{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.btn:hoover{
+    background-color: rgb(85, 85, 105);
+    color: rgb(94, 133, 106);
+}
+
+
+.btn-secondary{
+    background-color: blueviolet;
+    color: black;
+}
+
+.btn-secondary:hoover{
+background-color: antiquewhite;
+color: bisque;
+}
+
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    color: antiquewhite;
+}
+
+
+.left-container ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+
+.left-container > span > ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.left-container . span >ul >li :hover{
+    color: #34792e;
+}
+
+.projects .testimonials .contacts{
+    margin: 0%;
+    padding: 3rem;
+    width: 300px;
+    background: #f8fafc;
+    border-radius: 10px;
+}
+
+.projects .cards > div >.testimonials-cards{
+margin-top: 2rem;
+padding: 2rem;
+border-radius: 10px;
+background: bisque;
+box-shadow: #f8fafc;
+}
+
+.projects .cards >div{
+    border-left: 10px;
+}
+
+.contact{
+    max-width: none;
+    background: #39557e;
+    font-size: 20px;
+    color: black;
+
+}
+
+section{
+    text-align: center;
+}
+footer {
+  background: #123047;
+  color: #f8fafc;
+  padding: 2rem;
+}
+
+footer > div {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+footer h3 {
+  margin-bottom: 0.75rem;
+  color: #f4c542;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+footer a {
+  color: #f8fafc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f4c542;
+  text-decoration: underline;
+}
+
+footer p {
+  width: 100%;
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.hero .btn {
+  background-color: #f4c542;
+  color: #123047;
+}
+
+.hero .btn:nth-child(2) {
+  background-color: transparent;
+  color: white;
+}
+
+
+
+
+
+
+
