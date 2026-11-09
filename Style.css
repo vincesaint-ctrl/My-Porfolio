@@ -130,6 +130,8 @@ section >h1{
   display: flex;
   gap: 1.5rem;
   background-color: aquamarine;
+  text-align: center;
+  justify-content: space-between;
 }
 
 .card {
@@ -206,6 +208,7 @@ box-shadow: #f8fafc;
 
 .projects .cards >div{
     border-left: 10px;
+    text-align: center;
 }
 
 .contact{
@@ -218,6 +221,7 @@ box-shadow: #f8fafc;
 
 section{
     text-align: center;
+    display: flex;
 }
 footer {
   background: #123047;
@@ -278,7 +282,16 @@ footer p {
   background-color: transparent;
   color: white;
 }
-
+.testimonials{
+  display: flex;
+  justify-content:center;
+  padding: 20px;
+  margin: 20px;
+  gap: 10px;
+}
+.testimonial-cards{
+  border: 
+}
 
 
 
